@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 420px;
+}
+
+h2 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 22px;
+  border-bottom: 2px solid #28a745;
+  padding-bottom: 8px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+.form-label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 8px;
+  color: #495057;
+}
+
+.option-item {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.option-item input[type="radio"],
+.option-item input[type="checkbox"] {
+  accent-color: #28a745;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.btn-submit {
+  width: 100%;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn-submit:hover {
+  background-color: #218838;
+}
+
+.result-box {
+  margin-top: 15px;
+  line-height: 1.6;
+}
+.result-list {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.badge-lengkap {
+  display: inline-block;
+  background-color: #17a2b8;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.btn-back {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 600;
+}
+
+.btn-back:hover {
+  text-decoration: underline;
+}
